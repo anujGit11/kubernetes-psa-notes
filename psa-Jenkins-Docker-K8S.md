@@ -157,6 +157,13 @@ kubectl version --short --client
 	$ sudo mkdir .kube  <br/>
 	$ sudo vi .kube/config  <br/>
 
+ Or do this 
+
+mkdir -p ~/.kube
+chmod 700 ~/.kube
+vi ~/.kube/config
+
+
 3) Execute below commands in Jenkins Server and paste kube config file for ubuntu user to check EKS Cluster info<br/>
 	$ cd ~ <br/>
 	$ ls -la  <br/>
